@@ -55,7 +55,7 @@ export default function LoginRegisterModal({
               </MDBBtn>
             </div>
 
-            <MDBAutocomplete
+            <MDBInput
               className="mt-4"
               label="E-Mail"
               id="email"
@@ -66,7 +66,7 @@ export default function LoginRegisterModal({
               onChange={(e) => setEmail(e.target.value)}
             />
 
-            <MDBAutocomplete
+            <MDBInput
               className="mt-4"
               label="Passwort"
               id="password"
