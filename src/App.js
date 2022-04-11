@@ -8,6 +8,7 @@ import {
 	MDBStepperContent,
 	MDBStepperStep,
 	MDBStepperHead,
+	MDBContainer,
 } from "mdb-react-ui-kit";
 
 /* React */
@@ -21,7 +22,7 @@ export default function App() {
 	const [btnStepper, setBtnStepper] = useState(1);
 	const [prevBtnStepper, setPrevBtnStepper] = useState(0);
 	return (
-		<Router>
+		<MDBContainer>
 			<MDBStepper
 				className='bg-secondary-bright rounded-6 text-white'
 				verticalBreakpoint={768}
@@ -163,7 +164,7 @@ export default function App() {
 						</MDBRow>
 					</MDBStepperContent>
 				</MDBStepperStep>
-			</MDBStepper>{" "}
-		</Router>
+			</MDBStepper>
+		</MDBContainer>
 	);
 }
