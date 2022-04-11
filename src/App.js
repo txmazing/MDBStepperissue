@@ -33,7 +33,7 @@ export default function App() {
 				setPrevOuterState={setPrevBtnStepper}
 			>
 				<MDBStepperStep itemId={1}>
-					<MDBStepperHead icon='1' text='stepperstep1' className='pe-none' />
+					<MDBStepperHead icon='1' text='stepperstep1' />
 					<MDBStepperContent>
 						<MDBRow>
 							<MDBCol className='bg-secondary-brighter rounded-6 mb-5'>
@@ -66,7 +66,7 @@ export default function App() {
 					</MDBStepperContent>
 				</MDBStepperStep>
 				<MDBStepperStep itemId={2}>
-					<MDBStepperHead icon='2' text='stepperstep2' className='pe-none' />
+					<MDBStepperHead icon='2' text='stepperstep2' />
 					<MDBStepperContent>
 						<MDBRow>
 							<MDBCol className='bg-secondary-brighter rounded-6 mb-5'>
@@ -99,7 +99,7 @@ export default function App() {
 					</MDBStepperContent>
 				</MDBStepperStep>
 				<MDBStepperStep itemId={3}>
-					<MDBStepperHead icon='3' text='stepperstep3' className='pe-none' />
+					<MDBStepperHead icon='3' text='stepperstep3' />
 					<MDBStepperContent>
 						<MDBRow>
 							<MDBCol className='bg-secondary-brighter rounded-6 mb-5'>
@@ -132,7 +132,7 @@ export default function App() {
 					</MDBStepperContent>
 				</MDBStepperStep>
 				<MDBStepperStep itemId={4}>
-					<MDBStepperHead icon='4' text='stepperstep4' className='pe-none' />
+					<MDBStepperHead icon='4' text='stepperstep4' />
 					<MDBStepperContent>
 						<MDBRow>
 							<MDBCol className='bg-secondary-brighter rounded-6 mb-5'>
